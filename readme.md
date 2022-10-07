@@ -1,5 +1,5 @@
 ## 분산시스템 in AWS
-- IaC(Infrastructure as Code) Tool: Terraform(HashiCorp-HCL)
+- IaC(Infrastructure as Code) Tool: Terraform(HashiCorp-HCL/https://registry.terraform.io)
 ![아키텍처](https://user-images.githubusercontent.com/35190067/194558779-f4cc36e1-8ccc-4825-8be6-d5ecf347753d.png)
 ## MSA Stack
 - API & ERD 설계 Tool
