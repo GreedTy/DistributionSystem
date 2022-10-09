@@ -18,8 +18,8 @@
     - K8S/ECR(Helm/DockerFile)
   - Database : AuroraDB
   - Monitoring : DataDog
-## LoadTest Stack
-- Application : Locust / Python 3.8
+## LoadTest Stack 
+- Application : Locust / Python 3.8 (https://github.com/GreedTy/load-generator)
   - master1/worker5/dashboard
 - CI/CD: GitAction/ArgoCD
 
