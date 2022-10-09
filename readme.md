@@ -15,7 +15,7 @@
       - Implementation: SpringSecurity(OAuth2.0), SpringBatch, SpringDataJdbc, WebFlux, kotlinx(reactor, coroutine)
       - Test & Coverage: kotest(junit5, assertion, coroutine, reactor, wiremock) & Jacoco
   - CI/CD: GitAction/ArgoCD 
-    - K8S/ECR(Helm/DockerFile)
+    - K8S(EKS)/ECR (Helm/DockerFile)
   - Database : AuroraDB (Muti-AZ, Project dao in main/replica)
   - Monitoring : DataDog (Agent / AgentCluster)
 ## LoadTest Stack 
