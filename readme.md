@@ -16,8 +16,8 @@
       - Test & Coverage: kotest(junit5, assertion, coroutine, reactor, wiremock) & Jacoco
   - CI/CD: GitAction/ArgoCD 
     - K8S/ECR(Helm/DockerFile)
-- Database : AuroraDB
-- Monitoring : DataDog
+  - Database : AuroraDB
+  - Monitoring : DataDog
 ## LoadTest Stack
 - Application : Locust / Python 3.8
   - master1/worker5/dashboard
