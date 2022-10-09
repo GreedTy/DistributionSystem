@@ -16,7 +16,7 @@
       - Test & Coverage: kotest(junit5, assertion, coroutine, reactor, wiremock) & Jacoco
   - CI/CD: GitAction/ArgoCD 
     - K8S/ECR(Helm/DockerFile)
-  - Database : AuroraDB
+  - Database : AuroraDB (Muti-AZ, Project dao in main/replica)
   - Monitoring : DataDog
 ## LoadTest Stack 
 - Application : Locust / Python 3.8 (https://github.com/GreedTy/load-generator)
