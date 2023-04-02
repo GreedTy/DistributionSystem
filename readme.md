@@ -1,12 +1,12 @@
 ## 분산시스템 in AWS (TIL)
-- IaC(Infrastructure as Code) Tool: Terraform(HashiCorp-HCL/https://registry.terraform.io)
+- IaC(Infrastructure as Code) Tool: Terraform [aws-infra](https://github.com/GreedTy/terraform-aws-infra)
 ![아키텍처](https://user-images.githubusercontent.com/35190067/194558779-f4cc36e1-8ccc-4825-8be6-d5ecf347753d.png)
 ## MSA Stack
 - API & ERD 설계 Tool
-  - OpenAPI3.0 - openapi generator plugin (https://www.openapis.org/)
+  - OpenAPI3.0 - openapi generator plugin ([OpenAPI](https://www.openapis.org/))
   - ERDCloud & MySQL WorkBench(Reverse engineering)
 - Application : SpringBoot 2.6.x / Kotlin 1.6 (OpenJDK17)
-- Project 구성방식(https://github.com/GreedTy/MultyModuleService)
+- Project 구성방식 ([MultyModuleService](https://github.com/GreedTy/MultyModuleService))
   - Multy Module - settings.gradle
     - API & Batch
     - Layer
@@ -19,7 +19,7 @@
   - Database : AuroraDB (Muti-AZ, Project dao in main/replica)
   - Monitoring : DataDog (Agent / AgentCluster)
 ## LoadTest Stack 
-- Application : Locust / Python 3.8 (https://github.com/GreedTy/load-generator)
+- Application : Locust / Python 3.8 ([부하발생기](https://github.com/GreedTy/load-generator))
   - master1/worker5/dashboard
 - CI/CD: GitAction/ArgoCD
 
